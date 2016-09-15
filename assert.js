@@ -472,3 +472,4 @@ assert.ifError = function(err) { if (err) {throw err;}};
 
 return assert;
 });
+module.exports = (function() { return this; })();
